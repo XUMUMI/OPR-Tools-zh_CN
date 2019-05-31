@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            OPR-Tools-zh_CN
 // @version         1.0.0
-// @description     OPR enhancements
+// @description     OPR enhancements zh_CN
 // @homepageURL     https://github.com/XUMUMI/OPR-Tools-zh_CN
 // @author          XUMUMI
 // @match           https://opr.ingress.com/
@@ -15,14 +15,15 @@
 // @grant           unsafeWindow
 // @grant           GM_notification
 // @grant           GM_addStyle
-// @downloadURL     https://raw.githubusercontent.com/XUMUMI/OPR-Tools-zh_CN/master/OPR-Tools-zh_CN.js
-// @updateURL       https://raw.githubusercontent.com/XUMUMI/OPR-Tools-zh_CN/master/OPR-Tools-zh_CN.js
+// @downloadURL     https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.js
+// @updateURL       https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.js
+// @supportURL      https://github.com/XUMUMI/OPR-Tools-zh_CN/issues
 // @require         https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/js/alertify.js
 // @require         https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js
-// @require      https://raw.githubusercontent.com/wandergis/coordtransform/master/index.js
+// @require         https://raw.githubusercontent.com/wandergis/coordtransform/master/index.js
 
 // ==/UserScript==sform/master/index.js
-
+// source https://github.com/XUMUMI/OPR-Tools-zh_CN
 // original author 1110101, https://gitlab.com/1110101/opr-tools/graphs/master
 // original source https://gitlab.com/1110101/opr-tools
 // merge-requests welcome
