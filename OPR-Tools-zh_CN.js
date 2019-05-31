@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name            OPR-Tools-zh_CN
+// @namespace       https://github.com/XUMUMI/OPR-Tools-zh_CN
 // @version         1.0.0
 // @description     OPR enhancements zh_CN
 // @homepageURL     https://github.com/XUMUMI/OPR-Tools-zh_CN
 // @author          XUMUMI
+// @icon            https://opr.ingress.com/imgpub/favicon.ico
 // @match           https://opr.ingress.com/
 // @match           https://opr.ingress.com/?login=true
 // @match           https://opr.ingress.com/recon
@@ -22,7 +24,8 @@
 // @require         https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js
 // @require         https://raw.githubusercontent.com/wandergis/coordtransform/master/index.js
 
-// ==/UserScript==sform/master/index.js
+// ==/UserScript==
+
 // source https://github.com/XUMUMI/OPR-Tools-zh_CN
 // original author 1110101, https://gitlab.com/1110101/opr-tools/graphs/master
 // original source https://gitlab.com/1110101/opr-tools
