@@ -15,8 +15,8 @@
 // @grant           unsafeWindow
 // @grant           GM_notification
 // @grant           GM_addStyle
-// @downloadURL     https://github.com/XUMUMI/OPR-Tools-zh_CN/master/opr-tools.user.js
-// @updateURL       https://github.com/XUMUMI/OPR-Tools-zh_CN/master/opr-tools.user.js
+// @downloadURL     https://github.com/XUMUMI/OPR-Tools-zh_CN/blob/master/OPR-Tools-zh_CN.js
+// @updateURL       https://github.com/XUMUMI/OPR-Tools-zh_CN/blob/master/OPR-Tools-zh_CN.js
 // @require         https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/js/alertify.js
 // @require         https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js
 // @require      https://raw.githubusercontent.com/wandergis/coordtransform/master/index.js
