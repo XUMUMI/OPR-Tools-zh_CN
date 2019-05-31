@@ -8,8 +8,11 @@
 
 OPR-Tools 在 Chrome 和 Firefox 上进行测试。 你需要一个脚本管理器比如 [Tampermonkey](https://tampermonkey.net/) (如果你在用 IITC 那么你很可能已经有脚本管理器了) OPR-Tools 不适用于 Firefox 的 Greasemonkey。
 
+> **下载:** https://raw.githubusercontent.com/XUMUMI/OPR-Tools-zh_CN/master/OPR-Tools-zh_CN.js
+
 ![](./image/opr-tools-1.png)
-![](./image/opr-tools-2.png)![](./image/opr-tools-3.png)
+![](./image/opr-tools-2.png)
+![](./image/opr-tools-3.png)
 
 ## 功能:
 - 添加第三方地图按钮，如高德地图、百度地图等
