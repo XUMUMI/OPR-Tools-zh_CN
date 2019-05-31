@@ -192,7 +192,7 @@ class Preferences {
               return
             }
             inout.importFromString(value)
-            alertify.success(`✔ Imported preferences`)
+            alertify.success(`✔ 已导入设置`)
           }, event => {
             event.preventDefault()
           }
@@ -202,7 +202,7 @@ class Preferences {
       w.document.getElementById('export_all').addEventListener('click', () => {
         if (navigator.clipboard !== undefined) {
           navigator.clipboard.writeText(inout.exportAll()).then(() => {
-            alertify.success(`✔ Exported preferences to your clipboard!`)
+            alertify.success(`✔ 已将设置导出到粘贴板`)
           }, () => {
             // ugly alert as fallback
             alertify.alert(inout.exportAll())
@@ -447,14 +447,14 @@ function init() {
 
       // click listener for +preset button
       w.document.getElementById('addPreset').addEventListener('click', event => {
-        alertify.okBtn('Save').prompt('New preset name:',
+        alertify.okBtn('保存').cancelBtn('取消').prompt('新预设名字: ',
           (value, event) => {
             event.preventDefault()
             if (value === 'undefined' || value === '') {
               return
             }
             saveCustomPreset(value, ansController, whatController)
-            alertify.success(`✔ Created preset <i>${value}</i>`)
+            alertify.success(`✔ 已创建 <i>${value}</i>`)
             addCustomPresetButtons()
           }, event => {
             event.preventDefault()
