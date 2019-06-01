@@ -17,8 +17,8 @@
 // @grant           unsafeWindow
 // @grant           GM_notification
 // @grant           GM_addStyle
-// @downloadURL     https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.js
-// @updateURL       https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.js
+// @downloadURL     https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.user.js
+// @updateURL       https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.user.js
 // @supportURL      https://github.com/XUMUMI/OPR-Tools-zh_CN/issues
 // @require         https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/js/alertify.js
 // @require         https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js
