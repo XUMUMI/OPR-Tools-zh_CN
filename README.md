@@ -8,7 +8,7 @@
 
 OPR-Tools 在 Chrome 和 Firefox 上进行测试。 你需要一个脚本管理器比如 [Tampermonkey](https://tampermonkey.net/) (如果你在用 IITC 那么你很可能已经有脚本管理器了) OPR-Tools 不适用于 Firefox 的 Greasemonkey。
 
-> **下载:** https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.js
+> **下载:** https://github.com/XUMUMI/OPR-Tools-zh_CN/raw/master/OPR-Tools-zh_CN.user.js
 
 ![](./image/opr-tools-1.png)
 ![](./image/opr-tools-2.png)
