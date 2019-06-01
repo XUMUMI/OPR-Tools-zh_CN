@@ -5,7 +5,7 @@
 // @description     OPR enhancements zh_CN
 // @homepageURL     https://github.com/XUMUMI/OPR-Tools-zh_CN
 // @author          XUMUMI
-// @icon            https://opr.ingress.com/imgpub/favicon.ico
+// @icon            https://opr.ingress.com/imgpub/logo250.png
 // @match           https://opr.ingress.com/
 // @match           https://opr.ingress.com/?login=true
 // @match           https://opr.ingress.com/recon
@@ -92,8 +92,8 @@ const OPRT = {
 
 function addGlobalStyle(css) {
   GM_addStyle(css)
-
-  addGlobalStyle = () => { } // noop after first run
+  // noop after first run
+  addGlobalStyle = () => {} // eslint-disable-line no-func-assign
 }
 
 class Preferences {
@@ -185,7 +185,7 @@ class Preferences {
       })
 
       w.document.getElementById('import_all').addEventListener('click', () => {
-        alertify.okBtn('Import').prompt('Paste here:',
+        alertify.okBtn('导入').cancelBtn('取消').prompt('在这粘贴:',
           (value, event) => {
             event.preventDefault()
             if (value === 'undefined' || value === '') {
@@ -388,7 +388,6 @@ function init() {
   }
 
   function modifyNewPage(ansController, subController, whatController, newPortalData) {
-
     let skipDialog = false
 
     mapButtons(newPortalData, w.document.getElementById('descriptionDiv'), 'beforeEnd')
@@ -690,13 +689,12 @@ function init() {
             skipDialog = true
           })
         }])
-
       }, 10)
     }
 
     /* global markDuplicatePressed */
     let _markDuplicatePressed = markDuplicatePressed
-    markDuplicatePressed = (guid) => {
+    markDuplicatePressed = (guid) => { // eslint-disable-line no-global-assign
       _markDuplicatePressed(guid)
       setTimeout(() => {
         w.$injector.invoke(['$compile', ($compile) => {
